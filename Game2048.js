@@ -104,9 +104,6 @@ export default class Game2048 {
     }
 
     next = () => {
-        //añade un nuevo número 2 y pinta el tablero. Para su implementación se usan 2 métodos privados
-        //newNumber() coloca un 2 en una posición vacía de manera aleatoria. El tablero no puede estar lleno
-        //paint() permite representar el tablero de números en la interfaz
         if(this.isBoardFull()) {
             return;
         }
