@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgba(238, 228, 218, 0.35);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: auto 0;
+    height: 395px;
+    width: 399px;
+    background: rgba(238, 228, 218, 0.35);   
+    
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+    
+    background:#e2d1bf; 
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Colors from juego2048.es*/
+
+.tile-2 {
+    color: black;
+    background: #eee4da;
+}
+
+.tile-4 {
+    color: black;
+    background: #ede0c8;
+}
+
+.tile-8 {
+    color: #f9f6f2;
+    background: #f2b179;
+}
+
+.tile-16 {
+    color: #f9f6f2;
+    background: #f59563;
+}
+
+.tile-32 {
+    color: #f9f6f2;
+    background: #f67c5f;
+}
+
+.tile-64 {
+    color: #f9f6f2;
+    background: #f65e3b;
+}
+
+.tile-128 {
+    color: #f9f6f2;
+    background: #edcf72;
+}
+
+.tile-256 {
+    color: #f9f6f2;
+    background: #edcc61;;
+}
+
+.tile-512 {
+    color: #f9f6f2;
+    background: #f65e3b;
+}
+
+.tile-1024 {
+    color: #f9f6f2;
+    background: #f65e3b;
+}
+
+.tile-2048 {
+    color: #f9f6f2;
+    background: #f65e3b;
+}
+
+#new-game {
+    background: #b29377;
+    border-radius: 3px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #f9f6f2;
+    height: 40px;
+    line-height: 42px;
+    font-size: larger;
+    border-radius: 5%;
+}
+
+#new-game:hover {
+    cursor: pointer;
+    background: #514438;
+}
